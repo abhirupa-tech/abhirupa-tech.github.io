@@ -155,7 +155,7 @@ function moveTouch(e) {
 return (
     <div className="App">
       {waitForLoaderUI()}
-      {/* {isPageLoading && <Loader/>} */}
+      {isPageLoading && <Loader/>}
       <NavbarComponent/>
       <IntroPage show = {showPage1} isScrollDown = {isScrollingDown}/>
       <HomePage show = {showPage2} isScrollDown = {isScrollingDown}/>
