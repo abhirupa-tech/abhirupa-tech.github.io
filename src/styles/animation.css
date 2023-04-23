@@ -1,0 +1,67 @@
+@keyframes ComponentFadeAwayToTop {
+    0% { 
+        color: rgb(33, 41, 51);
+        opacity: 100%;
+        bottom: 10%;
+    }
+    100% {        
+        padding-top: 15vh;
+        opacity: 0%;                 
+        /* padding-top: 50vh; */
+    }
+}
+
+@keyframes ComponentAppearFromTop {
+    100% { 
+        color: rgb(33, 41, 51);
+        opacity: 100%;
+        bottom: 10%;
+    }
+    0% {        
+        padding-top: 15vh;
+        opacity: 0%;                 
+        /* padding-top: 50vh; */
+    }
+}
+
+@keyframes ComponentFadeAwayToBottom {
+    100% {                   
+        padding-top: 40vh;           
+        opacity: 100%;
+    }
+    0% {
+        padding-top: 60vh;
+        opacity: 0%;
+    }
+}
+
+@keyframes  ComponentAppearFromBottom{
+    0% {               
+        padding-top: 40vh;
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes  ScrollDownArrow{
+    0% {
+        opacity: 0%;
+    }
+    80% {
+        bottom: 80px;
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+
+
+
+
+
+
+

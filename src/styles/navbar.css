@@ -1,0 +1,104 @@
+.navbar-parent-container{
+    position: top fixed;
+    height: 15vh;
+    z-index: -1;
+    margin: auto;
+    width: 70vw;
+    background-color: none;
+    border-bottom: 1px solid rgb(95, 95, 95);
+    color: rgb(212, 212, 212);
+    font-family: Roboto-Light;
+    letter-spacing: 2px;
+}
+
+.navbar{
+    padding-top: 8vh;
+    font-size: 1.1em;
+}
+
+.nav-link{
+    text-align: right;
+    padding-right: 10px;
+}
+.nav-link-text:hover{
+    cursor: pointer;
+    color: rgb(233, 194, 127);;
+}
+
+.navLinks{
+    margin-left: 40px;
+    color: #FFCF53;
+}
+
+.brand-logo{
+    height:40px;
+    background-image: url(../img/brandLogo.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    .navbar{           
+        /* background: rgb(14, 18, 26); */
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 0px;
+        padding-right: 15px;
+    }
+    .navHeader{
+        visibility:hidden;
+    }
+}
+
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboto/Roboto-Light.ttf)
+}
+
+
+/**Small screen laptops/ Wide tablet devices **/
+@media screen and (max-width: 1300px) {
+    
+}
+  
+  /**Small screen laptops/ Wide tablet devices **/
+  @media screen and (max-width: 900px) {
+    
+  }
+  
+  /**Small screen laptops/ Wide tablet devices **/
+  @media screen and (max-width: 600px) {
+    
+  }
+  
+  /**Small screen laptops/ Wide tablet devices **/
+  @media screen and (max-width: 450px) {
+
+    .navbar-parent-container{
+        height: 10vh;
+        width: 98vw;
+        font-family: Roboto-Light;
+    }
+
+    .navbar{
+        padding-top: 3vh;        
+        padding-bottom: 2vh;
+        font-size: 0.5em;
+    }
+
+    .brandName{
+        align-items: center;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .brand-logo{
+        height:40px;
+        background-image: url(../img/brandLogoMobile.png);
+        background-position: center center;
+    }
+  }
+

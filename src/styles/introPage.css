@@ -1,0 +1,172 @@
+.IntroCaption{
+    /* background-color: #0b0f14; */
+    height: 100vh;
+    width:100vw;
+    padding-top:25vh;        
+    padding-left: 15vw;
+    padding-right: 6%;
+    max-width: 100%;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+.caption-Header {
+    /* animation: fadeInTextLeft 1s normal forwards; */
+    font-family: Montserrat-SemiBold;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 9.5vh;
+    padding-left: 2vw;
+    font-size: 4.2em;
+    text-align: left;
+}
+
+.caption-white{
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.connect-icons{
+    margin-top: 20px;
+    margin-left: 0vw;
+}
+.icon > svg {
+    height: 50px;
+    width: 50px;
+    margin-right: 2vw;
+}
+
+.icon > svg:hover {
+    cursor: pointer
+}
+
+.caption-color{
+    padding: 0;
+    background: linear-gradient(-45deg, #6355a4, #ab6fc4, #e89a3e, #e89a3e);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 2s ease-in-out infinite;
+    -moz-animation: animated_text 2s ease-in-out infinite;
+    -webkit-animation: animated_text 2s ease-in-out infinite;
+}
+
+.caption-underline{
+    text-decoration-line: underline;    
+    text-decoration-color: #e89a3e;
+    text-underline-offset: 18px;
+}
+
+.schedule-mentoring{
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: antiquewhite;
+    font-family: Roboto-Condensed;
+    letter-spacing: 2px;
+}
+
+.schedule-mentoring:hover{
+    color: #fad0a0;
+    cursor: pointer;
+}
+a { color: inherit; text-decoration: none;} 
+a:hover {color: inherit;}   
+
+
+@keyframes animated_text {
+    0% { background-position: 0px 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0px 50%; }
+}
+
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf)
+}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../fonts/Roboto/Roboto-Thin.ttf)
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../fonts/Montserrat-ExtraBold.ttf)
+}
+@font-face {
+    font-family: Roboto-Condensed;
+    src: url(../fonts/Roboto/RobotoCondensed-Light.ttf)
+}
+
+
+@keyframes fadeOut {
+    0% {
+        bottom: 20vh;      
+    }
+    100% {
+        bottom: 0vh;   
+    }
+}
+
+
+
+/**Small screen laptops/ Wide tablet devices **/
+@media screen and (max-width: 1300px) {
+    .caption-Header {       
+        line-height: 7vh;
+        font-size: 4em;
+    }
+}
+  
+  /**Small screen laptops/ Wide tablet devices **/
+  @media screen and (max-width: 900px) {
+    .caption-Header {       
+        line-height: 7vh;
+        font-size: 3.8em;
+    }
+  }
+  
+  /**Small screen laptops/ Wide tablet devices **/
+  @media screen and (max-width: 600px) {
+    .IntroCaption{   
+        padding-top: 20vh;  
+
+    }
+    .caption-Header {  
+        line-height: 50px;
+        font-size: 2.5em;
+    }
+  }
+  
+  /**Small screen laptops/ Wide tablet devices **/
+  @media screen and (max-width: 450px) {
+    .IntroCaption{   
+        padding-top: 25vh;          
+        padding-left: 10vw;
+    }
+    .caption-Header {  
+        line-height: 35px;
+        font-size: 2.2em;
+    }
+    .icon > svg{        
+        height: 30px;
+        width: 30px;
+        margin-right: 15px;
+    }
+    .connect-icons{
+        margin-top: 20px;
+        margin-left: 0vw;
+    }
+    .caption-underline{
+        text-decoration: none;
+    }
+    .schedule-mentoring{
+        margin-top: 18px;
+        font-size: 0.8em;
+        color: antiquewhite;
+        font-family: Roboto-Condensed;
+        letter-spacing: 2px;
+    }
+    .nav-link{
+        visibility: hidden;
+    }
+  }

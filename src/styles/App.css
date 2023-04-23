@@ -1,0 +1,67 @@
+.App {     
+    /* background-image: url(../img/bg.png); */
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    background-color: #020405;
+    overflow: hidden;
+}
+
+.img-end{
+  position: absolute;
+  height: 50vh;
+  right: 10px;
+  bottom: 0;
+}
+
+.scroll-down-arrow{
+  position: absolute;
+  margin:0px auto;
+  left:0;
+  right:0;
+  bottom: 100px;
+  margin: auto;
+  height: fit-content;
+  width: 10vw;
+}
+
+.scroll-down-arrow > svg {
+  height: 30px;
+  animation: ScrollDownArrow infinite;
+}
+.scroll-down-arrow > svg:hover{
+  cursor: pointer;
+}
+
+/**Small screen laptops/ Wide tablet devices **/
+@media screen and (max-width: 1300px) {
+  .App {           
+    /* background-image: url(../img/bg-tablet.png); */
+  }
+}
+
+/**Small screen laptops/ Wide tablet devices **/
+@media screen and (max-width: 900px) {
+  .App {           
+    /* background-image: url(../img/bg-tabletScreen.png); */
+  }
+}
+
+/**Small screen laptops/ Wide tablet devices **/
+@media screen and (max-width: 600px) {
+  .img-end{
+    position: absolute;
+    height: 30vh;
+    right: 10px;
+    bottom: 0;
+  }
+}
+
+/**Small screen laptops/ Wide tablet devices **/
+@media screen and (max-width: 450px) {
+  .scroll-down-arrow{
+    bottom: 40px;
+  }
+}

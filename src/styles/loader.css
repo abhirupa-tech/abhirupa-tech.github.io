@@ -1,0 +1,63 @@
+.loaderPage {
+    background-color: black;
+    height: 100%;
+}
+
+.loader{
+    align-content: center;
+    position: absolute;
+    width: fit-content;
+    margin:0px auto;
+    top: 40vh;
+    left:0;
+    right:0;
+}
+
+.loaderLogo1{
+    height: 8vh;
+    animation: loaderLogoAppearFromTop 5s forwards;
+}
+
+.loaderLogo2{
+    height: 6vh;
+    padding-left: 10px;
+    animation: loaderLogoAppearFromLeft 5s forwards;
+}
+
+
+/* Loader Animations for Loading Page */
+@keyframes loaderLogoAppearFromTop {
+    0% {
+        opacity: 0%;
+    }
+    20% {
+        opacity: 100%;
+    }
+    80%{ 
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+@keyframes loaderLogoAppearFromLeft{
+    0% {
+        margin-left: -2vh;
+        opacity: 0%;
+    }
+    20% {
+        margin-left: -2vh;
+        opacity: 0%;
+    }
+    50%{
+        margin-left: 0vh;
+        opacity: 100%;
+    }
+    80%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
