@@ -158,7 +158,8 @@ return (
       {isPageLoading && <Loader/>}
       <NavbarComponent/>
       <IntroPage show = {showPage1} isScrollDown = {isScrollingDown}/>
-      <HomePage show = {showPage2} isScrollDown = {isScrollingDown}/>
+      <HomePage show = {showPage2} isScrollDown = {isScrollingDown}/>      
+      <ContactMe show = {showPage3} isScrollDown = {isScrollingDown}/>
     </div>
   );
 }
