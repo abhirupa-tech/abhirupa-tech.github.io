@@ -2,7 +2,7 @@
   "name": "the-travelling-programmer",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://abhirupa-tech.github.io/",
+  "homepage": "https://abhirupamitra.tech/",
   "dependencies": {
     "@smakss/react-scroll-direction": "^1.0.4",
     "@testing-library/jest-dom": "^5.16.5",
